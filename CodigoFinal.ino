@@ -17,8 +17,8 @@ Adafruit_Fingerprint finger = Adafruit_Fingerprint(&fingerSerial);
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 Servo portaServo;
 
-const uint8_t posFechada = 90; // uint8_t para economizar memória
-const uint8_t posAberta = 0;
+const uint8_t posFechada = -90; // uint8_t para economizar memória
+const uint8_t posAberta = 90;
 const uint8_t MAX_NOME_LEN = 8;
 
 const uint8_t pinLed1 = 8;  
